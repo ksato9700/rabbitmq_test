@@ -1,0 +1,23 @@
+[package]
+name = "rabbitmq-test"
+version = "0.1.0"
+authors = ["Ken Sato <ksato9700@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "producer"
+path = "src/producer.rs"
+
+[[bin]]
+name = "consumer"
+path = "src/consumer.rs"
+
+[dependencies]
+lapin = "1.6.1"
+env_logger = "0.8"
+log = "0.4"
+async-global-executor = "1.4.3"
+futures-util = "0.3.8"
+
+[build-dependencies]
+
