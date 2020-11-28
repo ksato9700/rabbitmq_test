@@ -1,0 +1,10 @@
+{
+  "name": "rabbitmq-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ken Sato <ksato9700@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "0.6.0"
+  }
+}
